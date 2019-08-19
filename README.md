@@ -5,18 +5,35 @@ Project Members: Aktan Abdygaziev and Bailey Bjornstad
 
 ## Project Goals
 
-Goal statement goes here.
+In this analysis, we aim to identify the best avenues for Microsoft's new movie department to pursue when creating new movies. We will attempt to identify broad trends in genre popularity and profitability, as well as identify those creators (directors, writers, etc.) who are particularly profitable.
 
 ### Some Guiding Questions
 
-1. This
-2. Is
-3. A list of questions we will be asking.
+1. Which genre of movie offers the highest potential for profit?
+  - Are there any trends in popularity and gross income over time by genre that we might want to be aware of?
+  - Are there any genres that seem to have higher levels of long-lasting popularity? (So as to build engagement with this new Microsoft Movie branch)
+2. How long does it take to break even, and are there trends in the return on investment?
+3. Are there any movie crews that perform above average, and create movies with high popularity and income?
+4. How are user reviews and critic reviews related? Are there any trends that seem to be mirrored in these separate categories?
+
 
 ## Methodology 
-Some areas you can look to examine are movie genres (Thriller, Drama, Comedy, etc.), movie ratings, budget, social media discussion, and critic or user reviews. Your team gets to define its own questions about the movie industry and then use its knowledge of descriptive statistics and the EDA process to try and answer those questions. 
+
+### Data Cleaning
+
+The data will need to be cleaned. Custom functions are stored in [`data_cleaning.py`](./data_cleaning.py), while the interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data).
+
+### Data Analysis
+
+After cleaning, the data will need analysis and visualization. The interactive notebook is [`data-analysis.ipynb`](./data-analysis.ipynb).
+
+### Selected Visualizations and Conclusions
+
+An interactive notebook with visualizations and conclusions targeted at a non-technical audience can be found at [`visualizations-and-conclusions.ipynb`](./visualizations-and-conclusions.ipynb).
+
 
 ## Data Sources
+
 Microsoft has provided some data from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org.
 
 All data lives in [`./data/`](./data).
@@ -55,15 +72,6 @@ All data lives in [`./data/`](./data).
     - This comes straight from [The-Numbers.com](https://www.the-numbers.com/movie/budgets/all)
     - this includes all data from The Numbers! it is not subset to 2010-2018
 
-## Deliverables
-Your team must prepare a 5 minute presentation that gives the CEO insights as to what type of films they should be creating to meet consumer demand. Your presentation should outline the process you went through and use at least 4 meaningful data visualizations to help illustrate your findings. Your team is expected to use git as a collaborative tool for this project to manage version control and history.  No more than 8 slides.
-
-Be prepared to answer questions such as:
-- "how did you pick the question(s) that you did?"
-- "why are these questions important from a business perspective?"
-- "how did you decide on the data cleaning options you performed?"
-- "why did you choose a given method or library?"
-- "why did you select those visualizations and what did you learn from each of them?"
 
 ## Project Checklist:
 
@@ -97,7 +105,6 @@ Be prepared to answer questions such as:
      - [ ] include exported visualizations from analysis
      - [ ] Target the presentation to a non-technical audience, avoid jargon
      - [ ] Take no more than 5 minutes to present
-
 
 ### Timeline
 
