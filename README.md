@@ -23,6 +23,10 @@ In this analysis, we aim to identify the best avenues for Microsoft's new movie 
 
 The data will need to be cleaned. Custom functions are stored in [`data_cleaning.py`](./data_cleaning.py), while the interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data).
 
+### Data Merging
+
+After each dataset is cleaned, they will be ready for merging into our final dataset which can be used for analysis. The interactive notebook [`data-merging.ipynb`](./data-merging.ipynb) holds the merging procedures. The merged data is saved in the [`./cleaned_data/`](./cleaned_data) folder, as `final_data_merged.csv`.
+
 ### Data Analysis
 
 After cleaning, the data will need analysis and visualization. The interactive notebook is [`data-analysis.ipynb`](./data-analysis.ipynb).
@@ -38,12 +42,6 @@ Microsoft has provided some data from Box Office Mojo, IMDB, Rotten Tomatoes, an
 
 All data lives in [`./data/`](./data).
 
-- Box Office Mojo
-  - data
-    - bom.movie_gross.csv
-  - documentation
-    - scraped from [this page](https://www.boxofficemojo.com/yearly/chart/?view2=worldwide&yr=2010&p=.htm) (from 2010-2018).
-    - revenue has already been converted into pure dollars
 - IMDB
   - data
     - imdb.name.basics.csv
@@ -54,23 +52,11 @@ All data lives in [`./data/`](./data).
     - imdb.title.ratings.csv
   - documentation
     - All data has come from https://www.imdb.com/interfaces/, just filtered to only 2010-2018 movies.
-- Rotten Tomatoes
-  - data
-    - rt.movie_info.tsv
-    - rt.reviews.tsv
-  - documentation
-    - this came from [Kaggle](https://www.kaggle.com/rpnuser8182/rotten-tomatoes).  All documentation can be found there.
 - TheMovieDB.org
   - data
     - tmdb.movies.csv
   - documentation
-    - all data comes from https://developers.themoviedb.org/3/discover/movie-discover
-    - Again, only 2010-2018 movies have been included.
-  - data
-    - tn.movie_budgets.csv
-  - documentation
-    - This comes straight from [The-Numbers.com](https://www.the-numbers.com/movie/budgets/all)
-    - this includes all data from The Numbers! it is not subset to 2010-2018
+    - all data comes from https://www.kaggle.com/juzershakir/tmdb-movies-dataset
 
 
 ## Project Checklist:
