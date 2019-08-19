@@ -1,59 +1,60 @@
-# Flatiron School Data Science Module 1 Project
-
-Project Members: Aktan Abdygaziev and Bailey Bjornstad
+# Mod 1 Project Instructions
 
 
-## Project Goals
+## Congratulations! 
 
-Goal statement goes here.
+Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry. Your team has free range 
 
-### Some Guiding Questions
-
-1. This
-2. Is
-3. A list of questions we will be asking.
+Therefore your team is charged with doing data analysis and creating a presentation that explores what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the CEO can use when deciding what type of films they should be creating. 
 
 ## Methodology 
 Some areas you can look to examine are movie genres (Thriller, Drama, Comedy, etc.), movie ratings, budget, social media discussion, and critic or user reviews. Your team gets to define its own questions about the movie industry and then use its knowledge of descriptive statistics and the EDA process to try and answer those questions. 
 
 ## Data Sources
-Microsoft has provided some data from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org.
+Microsoft has provided some data from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org. You are not limited to these data sets! If you find other useful data on the web, you are welcome to include it (but this is not a requirement).
 
-All data lives in [`./data/`](./data).
+All data lives in [`./zippedData/`](./zippedData).
+Be sure to make a directory named 'data'.
+Once you've unzipped the data, place the .csv's into your newly created data folder
+This will ensure your .csv's don't error out a git push.
 
 - Box Office Mojo
   - data
-    - bom.movie_gross.csv
+    - bom.movie_gross.csv.gz
   - documentation
     - scraped from [this page](https://www.boxofficemojo.com/yearly/chart/?view2=worldwide&yr=2010&p=.htm) (from 2010-2018).
     - revenue has already been converted into pure dollars
 - IMDB
   - data
-    - imdb.name.basics.csv
-    - imdb.title.akas.csv
-    - imdb.title.basics.csv
-    - imdb.title.crew.csv
-    - imdb.title.principals.csv
-    - imdb.title.ratings.csv
+    - imdb.name.basics.csv.gz
+    - imdb.title.akas.csv.gz
+    - imdb.title.basics.csv.gz
+    - imdb.title.crew.csv.gz
+    - imdb.title.principals.csv.gz
+    - imdb.title.ratings.csv.gz
   - documentation
     - All data has come from https://www.imdb.com/interfaces/, just filtered to only 2010-2018 movies.
 - Rotten Tomatoes
   - data
-    - rt.movie_info.tsv
-    - rt.reviews.tsv
+    - rt.movie_info.tsv.gz
+    - rt.reviews.tsv.gz
   - documentation
     - this came from [Kaggle](https://www.kaggle.com/rpnuser8182/rotten-tomatoes).  All documentation can be found there.
 - TheMovieDB.org
   - data
-    - tmdb.movies.csv
+    - tmdb.movies.csv.gz
   - documentation
     - all data comes from https://developers.themoviedb.org/3/discover/movie-discover
     - Again, only 2010-2018 movies have been included.
   - data
-    - tn.movie_budgets.csv
+    - tn.movie_budgets.csv.gz
   - documentation
     - This comes straight from [The-Numbers.com](https://www.the-numbers.com/movie/budgets/all)
     - this includes all data from The Numbers! it is not subset to 2010-2018
+- More data!
+  - if you find data you think is helpful, or if there is a data set you don't know how to access but are interested in, please feel free to ask for instructor help via Slack.
+
+Remeber that Pandas can read gzipped data directly passed in with `pd.read_csv`.  To inspect data on command line without unzipping, you can use `gzip -cd <filename> | head` (I like to think `-cd` stands for Continuous Decompress).
 
 ## Deliverables
 Your team must prepare a 5 minute presentation that gives the CEO insights as to what type of films they should be creating to meet consumer demand. Your presentation should outline the process you went through and use at least 4 meaningful data visualizations to help illustrate your findings. Your team is expected to use git as a collaborative tool for this project to manage version control and history.  No more than 8 slides.
@@ -97,7 +98,13 @@ Be prepared to answer questions such as:
      - [ ] include exported visualizations from analysis
      - [ ] Target the presentation to a non-technical audience, avoid jargon
      - [ ] Take no more than 5 minutes to present
-
+ 
+## Specifics:
+### This project is in groups
+- Group A: Sebastian + John
+- Group B: Logan + Philip
+- Group C: Kate + Ahmed
+- Group D: Bailey + Aktan
 
 ### Timeline
 
@@ -117,3 +124,14 @@ Be prepared to answer questions such as:
 8/21 Wednesday 
  - afternoon project presentation
  - science fair open to staff and fellow students
+
+### Project Review
+If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
+ - Perform additional data cleanup, visualization, and/or feature selection 
+ - Submit an improved version
+ - Meet again for another Project Presentation
+ 
+What won't happen:
+ - You won't be yelled at, belittled, or scolded
+ - You won't be put on the spot without support
+ - There's nothing you can do to instantly fail or blow it
