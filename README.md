@@ -21,7 +21,7 @@ In this analysis, we aim to identify the best avenues for Microsoft's new movie 
 
 ### Data Cleaning
 
-The data will need to be cleaned. The interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data).
+The data will need to be cleaned. The interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data), and analyzed data in the [`./analyzed_data/`](./analyzed_data) folder.
 
 ### Data Merging
 
@@ -33,14 +33,14 @@ After cleaning, the data will need analysis and visualization. The interactive n
 
 ### Selected Visualizations and Conclusions
 
-An interactive notebook with visualizations and conclusions targeted at a non-technical audience can be found at [`visualizations-and-conclusions.ipynb`](./visualizations-and-conclusions.ipynb).
+An interactive notebook with visualizations and conclusions targeted at a non-technical audience can be found at [`visualizations-and-conclusions.ipynb`](./visualizations-and-conclusions.ipynb). Moreover, the final plots can be found at [`plots`](plots) in PNG format.
 
 
 ## Data Sources
 
-Microsoft has provided some data from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org.
+Microsoft has provided some data from IMDB, The Numbers.com.
 
-All data lives in [`./data/`](./data).
+All data lives in [`./data/`](./data) in CSV format.
 
 - IMDB
   - data
@@ -53,7 +53,7 @@ All data lives in [`./data/`](./data).
     - All data has come from https://www.imdb.com/interfaces/, just filtered to only 2010-2018 movies.
 - The Numbers
   - data
-    - tn.movie_budgets.csv.gz
+    - tn.movie_budgets.csv
   - documentation
     - This comes straight from [The-Numbers.com](https://www.the-numbers.com/movie/budgets/all)
     - this includes all data from The Numbers! it is not subset to 2010-2018
@@ -70,7 +70,7 @@ All data lives in [`./data/`](./data).
  - [x] Use Pandas and Numpy to generate useful metrics for comparing films
 
  - [ ] Posted to git repository:
-   - [ ] A README.md listing project members, goals, responsibilities, and a summary of the files in the repository
+   - [x] A README.md listing project members, goals, responsibilities, and a summary of the files in the repository
    - [x] At least 10 commits
      - [x] Must include short, descriptive commit messages
      - [x] Each project member should commit at least once
@@ -84,29 +84,10 @@ All data lives in [`./data/`](./data).
      - [ ] 4 well annotated visualizations created using Matplotlib/Seaborn
      - [ ] 2 meaningful summary tables using Pandas
      - [ ] At least four actionable insights (What type of films should they be looking to produce? What should the budget requirements be? Should they recruit certain actors for their films?)
-   - [ ] A pdf of no more than 8 slides used in project presentation targeting non-technical audience
-     - [ ] Apply consistent and effective formatting to create a “professional” appearing deck
-     - [ ] Write an abbreviated high-level overview of methodology
-     - [ ] Justify at least 2 concrete recommendations 
-     - [ ] include exported visualizations from analysis
-     - [ ] Target the presentation to a non-technical audience, avoid jargon
-     - [ ] Take no more than 5 minutes to present
-
-### Timeline
-
-8/16 Friday - Project Assignment 
- - schedule Monday check in with coach
- 
-8/19 Monday - Check in with coaches 
- - review data cleaning
- - provide url of project repository
- - review at least one table/chart
- - review work plan created for how teammates will approach and divide work
- 
-8/20 Tuesday - Demo presentation with feedback from instructors 
- - have polished draft of deck completed
- - have polished version of jupyter notebook completed
- 
-8/21 Wednesday 
- - afternoon project presentation
- - science fair open to staff and fellow students
+   - [x] A pdf of no more than 8 slides used in project presentation targeting non-technical audience
+     - [x] Apply consistent and effective formatting to create a “professional” appearing deck
+     - [x] Write an abbreviated high-level overview of methodology
+     - [x] Justify at least 2 concrete recommendations 
+     - [x] include exported visualizations from analysis
+     - [x] Target the presentation to a non-technical audience, avoid jargon
+     - [x] Take no more than 5 minutes to present
