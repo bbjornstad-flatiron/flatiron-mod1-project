@@ -69,7 +69,7 @@ All data lives in [`./data/`](./data) in CSV format.
      - [x] Create at least two new features that were not present in the original data sets
  - [x] Use Pandas and Numpy to generate useful metrics for comparing films
 
- - [ ] Posted to git repository:
+ - [x] Posted to git repository:
    - [x] A README.md listing project members, goals, responsibilities, and a summary of the files in the repository
    - [x] At least 10 commits
      - [x] Must include short, descriptive commit messages
@@ -79,11 +79,11 @@ All data lives in [`./data/`](./data) in CSV format.
      - [x] Code should follow Pep8 standards
      - [x] Custom functions should be stored in .py file and imported whenever possible
    - [x] Your final joined and cleaned dataset that was used for analysis
-   - [ ] A narrative Jupyter notebook targeted to a non-technical audience that provides:
-     - [ ] The purpose of your analysis and why it matters
-     - [ ] 4 well annotated visualizations created using Matplotlib/Seaborn
-     - [ ] 2 meaningful summary tables using Pandas
-     - [ ] At least four actionable insights (What type of films should they be looking to produce? What should the budget requirements be? Should they recruit certain actors for their films?)
+   - [x] A narrative Jupyter notebook targeted to a non-technical audience that provides:
+     - [x] The purpose of your analysis and why it matters
+     - [x] 4 well annotated visualizations created using Matplotlib/Seaborn
+     - [x] 2 meaningful summary tables using Pandas
+     - [x] At least four actionable insights (What type of films should they be looking to produce? What should the budget requirements be? Should they recruit certain actors for their films?)
    - [x] A pdf of no more than 8 slides used in project presentation targeting non-technical audience
      - [x] Apply consistent and effective formatting to create a “professional” appearing deck
      - [x] Write an abbreviated high-level overview of methodology
