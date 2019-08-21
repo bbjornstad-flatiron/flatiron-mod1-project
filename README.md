@@ -21,7 +21,7 @@ In this analysis, we aim to identify the best avenues for Microsoft's new movie 
 
 ### Data Cleaning
 
-The data will need to be cleaned. Custom functions are stored in [`data_cleaning.py`](./data_cleaning.py), while the interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data).
+The data will need to be cleaned. The interactive notebook [`data-cleaning.ipynb`](./data-cleaning.ipynb) holds the actual cleaning procedures. Cleaned data is also saved in the folder [`./cleaned_data/`](./cleaned_data).
 
 ### Data Merging
 
