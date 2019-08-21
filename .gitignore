@@ -1,2 +1,4 @@
 .ipynb_checkpoints/*
 data/.ipynb_checkpoints/*
+.DS_Store
+cleaned_data/.DS_Store
