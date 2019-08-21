@@ -45,40 +45,40 @@ All data lives in [`./data/`](./data).
 - IMDB
   - data
     - imdb.name.basics.csv
-    - imdb.title.akas.csv
     - imdb.title.basics.csv
     - imdb.title.crew.csv
     - imdb.title.principals.csv
     - imdb.title.ratings.csv
   - documentation
     - All data has come from https://www.imdb.com/interfaces/, just filtered to only 2010-2018 movies.
-- TheMovieDB.org
+- The Numbers
   - data
-    - tmdb.movies.csv
+    - tn.movie_budgets.csv.gz
   - documentation
-    - all data comes from https://www.kaggle.com/juzershakir/tmdb-movies-dataset
+    - This comes straight from [The-Numbers.com](https://www.the-numbers.com/movie/budgets/all)
+    - this includes all data from The Numbers! it is not subset to 2010-2018
 
 
 ## Project Checklist:
 
- - [ ] Use data from at least two sources
-   - [ ] Establish naming conventions for variables and datasets
-   - [ ] Clean dataset & record parameters used to clean the data
-     - [ ] You may use Pandas or Python functions
-     - [ ] Document every step of the cleaning process
-     - [ ] Create at least two new features that were not present in the original data sets
- - [ ] Use Pandas and Numpy to generate useful metrics for comparing films
+ - [x] Use data from at least two sources
+   - [x] Establish naming conventions for variables and datasets
+   - [x] Clean dataset & record parameters used to clean the data
+     - [x] You may use Pandas or Python functions
+     - [x] Document every step of the cleaning process
+     - [x] Create at least two new features that were not present in the original data sets
+ - [x] Use Pandas and Numpy to generate useful metrics for comparing films
 
  - [ ] Posted to git repository:
    - [ ] A README.md listing project members, goals, responsibilities, and a summary of the files in the repository
-   - [ ] At least 10 commits
-     - [ ] Must include short, descriptive commit messages
-     - [ ] Each project member should commit at least once
-   - [ ] A Jupyter notebook targeted to a technical audience that contains
-     - [ ] Clean and commented code so an independent party can replicate your analysis and justify your analytical choices
-     - [ ] Code should follow Pep8 standards
-     - [ ] Custom functions should be stored in .py file and imported whenever possible
-   - [ ] Your final joined and cleaned dataset that was used for analysis
+   - [x] At least 10 commits
+     - [x] Must include short, descriptive commit messages
+     - [x] Each project member should commit at least once
+   - [x] A Jupyter notebook targeted to a technical audience that contains
+     - [x] Clean and commented code so an independent party can replicate your analysis and justify your analytical choices
+     - [x] Code should follow Pep8 standards
+     - [x] Custom functions should be stored in .py file and imported whenever possible
+   - [x] Your final joined and cleaned dataset that was used for analysis
    - [ ] A narrative Jupyter notebook targeted to a non-technical audience that provides:
      - [ ] The purpose of your analysis and why it matters
      - [ ] 4 well annotated visualizations created using Matplotlib/Seaborn
